@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name Here</title>
+  <title>Caleb Teeters</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,6 +25,10 @@
       <h2>About Me</h2>
       <!-- TODO: Replace with 2-3 sentences about yourself -->
       <!-- e.g., include your name, your program/year, and what you are interested in -->
+      <p>My name is Caleb Teeters, and I am a sophomore at the University of Pittsburgh. 
+        I am a Computer Science, Information Science, and Data Science student 
+        with an interest in machine learning, 
+        data analysis, and software development.</p>
     </section>
 
     <section id="projects">
@@ -38,16 +42,41 @@
       -->
 
       <!-- TODO: Add at least 2 project entries using the structure above -->
+      <div class="project">
+        <h3>Soccer Player Market Value Predictor</h3>
+        <p>
+          Using Docker, FastAPI, and Python (pandas, scikit-learn), I built a machine learning model 
+          to predict soccer player market values using data collected from three independent sources.
+          I improved model R² from 0.174 to 0.435 through feature engineering and correlation analysis and  
+          developed a data pipeline that matched 2,500+ player records with 98% entity-resolution accuracy, 
+          using caching and retry logic to handle API requests. 
+          Lastly, I compared Linear Regression and Random Forest models while testing for data leakage 
+          and evaluating the impact of engineered features on prediction performance. 
+
+        </p>
+      </div>
+      <div class="project">
+        <h3>Rally Co. Website Redesign & Full-Stack Build</h3>
+        <p>
+          I rebuilt a campus marketing agency's website as a full-stack Next.js application, 
+          replacing a static site with a component-based architecture and centralized content layer.
+          I built a multi-step contact form with client and server-side validation, spam protection, 
+          and a REST API route that stores leads in a PostgreSQL database via Supabase.
+          Additionally, I improved cross-device usability by implementing responsive layouts, 
+          mobile navigation, semantic HTML, and reduced-motion support alongside scroll-triggered animations.
+        </p>
+      </div>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <ul>
         <!-- Example skill - TODO: replace -->
-        <li>HTML</li>
-
+        <li>Python</li>
         <!-- TODO: Add a second skill here -->
+        <li>Java</li>
         <!-- TODO: Add a third skill here -->
+        <li>SQL</li>
         <!-- TODO: ... -->
       </ul>
     </section>
@@ -56,13 +85,13 @@
       <h2>Contact</h2>
       <!-- TODO: Replace href="#" with a real link (e.g., mailto:you@example.com or your LinkedIn URL) -->
       <!-- TODO: Replace the link text with something descriptive, e.g. "Email me" or "LinkedIn" -->
-      <p><a href="#">Contact me</a></p>
+      <p><a href="cjt118@pitt.edu">Email me</a></p>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; Your Name Here</p>
+    <p>&copy; Caleb Teeters</p>
   </footer>
 
 </body>
